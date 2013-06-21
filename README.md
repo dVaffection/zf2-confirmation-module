@@ -3,6 +3,15 @@ zf2-confirmation-module
 
 The main purpose of Confirmation module is to unify work with confirmations of different types, so to speak this module provides an abstraction layer upon confirmation mechanism.
 
+Installation instructions
+-------------------------
+
+1. `git clone git clone https://github.com/dVaffection/zf2-confirmation-module.git`
+2. `cd zf2-confirmation-module`
+3. `php composer.phar install`
+4. `cd tests`
+5. `phpunit`
+
 ---
 
 E.g.
