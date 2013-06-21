@@ -1,0 +1,15 @@
+<phpunit bootstrap="Bootstrap.php"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         verbose="true"
+         stopOnFailure="false"
+         processIsolation="false"
+         backupGlobals="false"
+         syntaxCheck="true"
+>
+    <testsuite name="Confirmation module test suite">
+        <directory>./ConfirmationTest</directory>
+    </testsuite>
+</phpunit>

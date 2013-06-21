@@ -1,0 +1,45 @@
+{
+    "name": "dv-affection/zf2-confirmation-module",
+    "description": "The main purpose of Confirmation module is unify work with confirmations of different types, so to speak this module gives an abstraction of confirmation mechanism.",
+    "license": "proprietary",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4",
+        "zendframework/zendframework": ">=2.1.0",
+        "doctrine/doctrine-mongo-odm-module": "0.1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Confirmation": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }, 
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://packages.zendframework.com/"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "zf-commons/zfc-user-doctrine-mongo-odm",
+                "version": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/ZF-Commons/ZfcUserDoctrineMongoODM",
+                    "reference": "master"
+                },
+                "autoload": {
+                    "psr-0": {
+                        "ZfcUser": "src/"
+                    },
+                    "classmap": [
+                        "./Module.php"
+                    ]
+                }
+            }
+        }
+    ]
+}

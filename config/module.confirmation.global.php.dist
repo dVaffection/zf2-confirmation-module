@@ -1,0 +1,13 @@
+<?php
+
+return array(
+    'confirmation' => array(
+        /**
+         * Confirmation Model Entity Class
+         */
+//        'confirmation_entity_class' => 'Confirmation\Document\Confirmation',
+
+//        'expiration_period'         => 'P1M',
+    ),
+
+);
